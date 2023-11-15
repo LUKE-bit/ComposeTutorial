@@ -57,7 +57,7 @@ fun OnboardingScreen(onContinueClicked:() -> Unit,modifier:Modifier = Modifier){
     }
 }
 @Composable
-private fun Greetings(
+fun Greetings(
     modifier:Modifier = Modifier,
     names: List<String> = List(1000){"$it"}
 ){
